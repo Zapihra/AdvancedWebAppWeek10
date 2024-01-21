@@ -1,6 +1,6 @@
 import List from "./MyList";
 
-const Container = ({container}) => {
+const Container = () => {
     return (
         <>
             <h2>Hello from container</h2>
