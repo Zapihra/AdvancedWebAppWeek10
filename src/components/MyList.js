@@ -11,8 +11,6 @@ function List(props) {
         <ol>
             {itemsList}
         </ol>
-        props.items
-        <h2>I'm a list</h2>
     </>)
     }
 }
