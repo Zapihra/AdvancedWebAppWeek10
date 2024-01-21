@@ -1,6 +1,7 @@
 function List(props) {
     const items = props.items
     const header = props.header
+    if (items){
     const itemsList = items.map((item) =>
     <li id={item.id}>{item.text}</li>
     );
@@ -13,6 +14,7 @@ function List(props) {
         props.items
         <h2>I'm a list</h2>
     </>)
+    }
 }
 
 export default List
