@@ -3,7 +3,7 @@ function List(props) {
     const header = props.header
     if (items){
     const itemsList = items.map((item) =>
-    <li id={item.id}>{item.text}</li>
+    <li key={item.id} onClick={() => props.updateItem(item.id)}>{item.text}</li>
     );
 
     return (<>
