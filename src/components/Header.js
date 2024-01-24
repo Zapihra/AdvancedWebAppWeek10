@@ -27,8 +27,8 @@ function AppBarTop({ t }) {
           <Button color="inherit" href='/'>{t('home')}</Button>
           <Button color="inherit" href='/about'>{t('about')}</Button>
 
-          <Button color='inherit' onClick={()=>changeLanguage('en')}>EN</Button>
-          <Button color='inherit' onClick={()=>changeLanguage('fi')}>FI</Button>
+          <Button color='inherit' onClick={()=>changeLanguage('en')} id="en">EN</Button>
+          <Button color='inherit' onClick={()=>changeLanguage('fi')} id="fi">FI</Button>
           
         </Toolbar>
       </AppBar>
