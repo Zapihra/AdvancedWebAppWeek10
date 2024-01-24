@@ -1,5 +1,6 @@
 import List from "./MyList";
 import { useState } from 'react';
+import Header from "./Header";
 
 const Container = () => {
 
@@ -36,4 +37,13 @@ const Container = () => {
     )
 }
 
-export default Container
+const SecondContainer = () => {
+    return(
+    <>
+        <Header/>
+        <div> From container</div>
+    </>)
+}
+
+
+export default SecondContainer
