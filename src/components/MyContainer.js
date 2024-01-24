@@ -1,6 +1,7 @@
 import List from "./MyList";
 import { useState } from 'react';
 import { withTranslation } from "react-i18next";
+import Component from "./MyHOC";
 
 /*const Container = () => {
 
@@ -37,9 +38,11 @@ import { withTranslation } from "react-i18next";
     )
 }*/
 
+
 const SecondContainer = ({ t }) => {
     return(
     <>
+        
         <div>{t('front')}</div>
     </>)
 }
