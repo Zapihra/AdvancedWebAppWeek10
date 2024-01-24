@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### includes both week 10 and week 11 tasks
+
 ## Available Scripts
 
 In the project directory, you can run:
