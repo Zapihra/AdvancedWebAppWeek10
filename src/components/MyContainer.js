@@ -1,5 +1,6 @@
 import List from "./MyList";
 import { useState } from 'react';
+import { withTranslation } from "react-i18next";
 
 /*const Container = () => {
 
@@ -36,12 +37,12 @@ import { useState } from 'react';
     )
 }*/
 
-const SecondContainer = () => {
+const SecondContainer = ({ t }) => {
     return(
     <>
-        <div> From container</div>
+        <div>{t('front')}</div>
     </>)
 }
 
 
-export default SecondContainer
+export default withTranslation() (SecondContainer);

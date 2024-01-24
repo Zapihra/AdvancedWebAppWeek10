@@ -4,6 +4,7 @@ import SecondContainer from './components/MyContainer';
 import About from './components/About';
 import AppBarTop from './components/Header';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import './i18n';
 
 function App() {
   return (
