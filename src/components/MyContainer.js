@@ -2,7 +2,7 @@ import List from "./MyList";
 import { useState } from 'react';
 import Header from "./Header";
 
-const Container = () => {
+/*const Container = () => {
 
     const [items, setItems] = useState([
         {id: "1", text: "This is an item"},
@@ -35,7 +35,7 @@ const Container = () => {
             </form>
         </>
     )
-}
+}*/
 
 const SecondContainer = () => {
     return(
